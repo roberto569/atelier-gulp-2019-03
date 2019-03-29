@@ -4,7 +4,7 @@ var sass= require('gulp-sass');
 
 gulp.task( 'sass', function(){ 
 
-    console.log('Hey Ho!');
+    console.log('Transformation de SCSS en CSS');
     
     return gulp.src('dev/scss/styles.scss')
                     .pipe(sass())
